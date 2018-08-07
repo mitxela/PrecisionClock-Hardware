@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\+mitxela\kicad\clock\precision clock.sch</source>
+    <date>07/08/2018 20:35:44</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>precision clock.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="DMill1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FBB10</tstamp>
+    </comp>
+    <comp ref="DCentury1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FCFD1</tstamp>
+    </comp>
+    <comp ref="DDecade1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FD077</tstamp>
+    </comp>
+    <comp ref="DYear1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FD1C4</tstamp>
+    </comp>
+    <comp ref="DTenMonth1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FE720</tstamp>
+    </comp>
+    <comp ref="DMonth1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FE736</tstamp>
+    </comp>
+    <comp ref="DTenDay1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FE74C</tstamp>
+    </comp>
+    <comp ref="DDay1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FE762</tstamp>
+    </comp>
+    <comp ref="UDateDrv1">
+      <value>MAX7219</value>
+      <libsource lib="precision-clock-rescue" part="MAX7219" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5FFFB1</tstamp>
+    </comp>
+    <comp ref="DHyphenYear1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6021D2</tstamp>
+    </comp>
+    <comp ref="DHyphenMonth1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6027A1</tstamp>
+    </comp>
+    <comp ref="D_GMT1">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6038BF</tstamp>
+    </comp>
+    <comp ref="D_BST1">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60395C</tstamp>
+    </comp>
+    <comp ref="DTenHr1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6048AA</tstamp>
+    </comp>
+    <comp ref="DHr1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6048B8</tstamp>
+    </comp>
+    <comp ref="DTenMin1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6048C6</tstamp>
+    </comp>
+    <comp ref="DMin1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6048D4</tstamp>
+    </comp>
+    <comp ref="DTenSec1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6048E1</tstamp>
+    </comp>
+    <comp ref="DSec1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6048EF</tstamp>
+    </comp>
+    <comp ref="DDeciSec1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6048FC</tstamp>
+    </comp>
+    <comp ref="DCentiSec1">
+      <value>KCSC02-105</value>
+      <footprint>precision clock:7seg1inchCC</footprint>
+      <libsource lib="precision-clock-rescue" part="KCSC02-105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B604909</tstamp>
+    </comp>
+    <comp ref="UTimeDrv1">
+      <value>MAX7219</value>
+      <libsource lib="precision-clock-rescue" part="MAX7219" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B604916</tstamp>
+    </comp>
+    <comp ref="DColonHM2">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B604932</tstamp>
+    </comp>
+    <comp ref="DColonMS1">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B604938</tstamp>
+    </comp>
+    <comp ref="DColonMS2">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B609827</tstamp>
+    </comp>
+    <comp ref="DColonHM1">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B609A77</tstamp>
+    </comp>
+    <comp ref="U_CONTROL1">
+      <value>ATTINY2313A-PU</value>
+      <footprint>Housings_DIP:DIP-20_W7.62mm</footprint>
+      <libsource lib="precision-clock-rescue" part="ATTINY2313A-PU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B60B96D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP1117-33</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</footprint>
+      <libsource lib="precision-clock-rescue" part="AP1117-33" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B610369</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <libsource lib="precision-clock-rescue" part="CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B610931</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <libsource lib="precision-clock-rescue" part="CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B610E29</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <libsource lib="precision-clock-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61530A</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <libsource lib="precision-clock-rescue" part="Jumper" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6182F3</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_PNP_EBC</value>
+      <libsource lib="precision-clock-rescue" part="Q_PNP_EBC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B628312</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PNP_EBC</value>
+      <libsource lib="precision-clock-rescue" part="Q_PNP_EBC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B629439</tstamp>
+    </comp>
+    <comp ref="LDR1">
+      <value>LDR03</value>
+      <footprint>Opto-Devices:Resistor_LDR_10x8.5_RM7.6</footprint>
+      <libsource lib="precision-clock-rescue" part="LDR03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B629DDB</tstamp>
+    </comp>
+    <comp ref="R_Max_Bright1">
+      <value>50K</value>
+      <libsource lib="precision-clock-rescue" part="POT_TRIM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B62A5D9</tstamp>
+    </comp>
+    <comp ref="R_Min_Bright1">
+      <value>10M</value>
+      <libsource lib="precision-clock-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B62B115</tstamp>
+    </comp>
+    <comp ref="U_GPS1">
+      <value>NEO6MV2</value>
+      <libsource lib="precision-clock-rescue" part="NEO6MV2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B633FB3</tstamp>
+    </comp>
+    <comp ref="D_PPS1">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6355BD</tstamp>
+    </comp>
+    <comp ref="R_PPS1">
+      <value>20K</value>
+      <libsource lib="precision-clock-rescue" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B635753</tstamp>
+    </comp>
+    <comp ref="D_GMT2">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B83DF1C</tstamp>
+    </comp>
+    <comp ref="D_BST2">
+      <value>LED</value>
+      <libsource lib="precision-clock-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B83DFCB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="precision-clock-rescue" part="AP1117-33">
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-33</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="passive"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="ATTINY2313A-PU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY2313A-PU</field>
+        <field name="Footprint">Housings_DIP:DIP-20_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2(~RESET~/dW/PCINT10)" type="input"/>
+        <pin num="2" name="(PCINT11/RXD)PD0" type="BiDi"/>
+        <pin num="3" name="(PCINT12/TXD)PD1" type="BiDi"/>
+        <pin num="4" name="PA1(XTAL2/PCINT9)" type="input"/>
+        <pin num="5" name="PA0(XTAL1/CLKI/PCINT8)" type="input"/>
+        <pin num="6" name="(PCINT13/CKOUT/XCK/INT0)PD2" type="BiDi"/>
+        <pin num="7" name="(PCINT14/INT1)PD3" type="BiDi"/>
+        <pin num="8" name="(PCINT15/T0)PD4" type="BiDi"/>
+        <pin num="9" name="(PCINT16/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="(PCINT17/ICP1)PD6" type="BiDi"/>
+        <pin num="12" name="(PCINT0/AIN0)PB0" type="BiDi"/>
+        <pin num="13" name="(PCINT1/AIN1)PB1" type="BiDi"/>
+        <pin num="14" name="(PCINT2/OC0A)PB2" type="BiDi"/>
+        <pin num="15" name="(PCINT3/OC1A)PB3" type="BiDi"/>
+        <pin num="16" name="(PCINT4/OC1B)PB4" type="BiDi"/>
+        <pin num="17" name="(PCINT5/MOSI/DI/SDA)PB5" type="BiDi"/>
+        <pin num="18" name="(PCINT6/MISO/DO)PB6" type="BiDi"/>
+        <pin num="19" name="(PCINT7/USCK/SCK/SCL)PB7" type="BiDi"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="Jumper">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="KCSC02-105">
+      <footprints>
+        <fp>*KCSC02*105*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KCSC02-105</field>
+        <field name="Footprint">Displays_7-Segment:KCSC02-105</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="input"/>
+        <pin num="2" name="D" type="input"/>
+        <pin num="3" name="CC" type="input"/>
+        <pin num="4" name="C" type="input"/>
+        <pin num="5" name="DP" type="input"/>
+        <pin num="6" name="B" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="CC" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="LDR03">
+      <footprints>
+        <fp>Resistor*LDR*10x8.5*RM7.6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">LDR03</field>
+        <field name="Footprint">Opto-Devices:Resistor_LDR_10x8.5_RM7.6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="MAX7219">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX7219</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIN" type="output"/>
+        <pin num="2" name="DIG_0" type="output"/>
+        <pin num="3" name="DIG_4" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIG_6" type="output"/>
+        <pin num="6" name="DIG_2" type="output"/>
+        <pin num="7" name="DIG_3" type="output"/>
+        <pin num="8" name="DIG_7" type="output"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="DIG_5" type="output"/>
+        <pin num="11" name="DIG_1" type="output"/>
+        <pin num="12" name="LOAD_CS*" type="input"/>
+        <pin num="13" name="CLK" type="input"/>
+        <pin num="14" name="SEG_A" type="output"/>
+        <pin num="15" name="SEG_F" type="output"/>
+        <pin num="16" name="SEG_B" type="output"/>
+        <pin num="17" name="SEG_G" type="output"/>
+        <pin num="18" name="ISET" type="input"/>
+        <pin num="19" name="V+" type="power_in"/>
+        <pin num="20" name="SEG_C" type="output"/>
+        <pin num="21" name="SEG_E" type="output"/>
+        <pin num="22" name="SEG_DP" type="output"/>
+        <pin num="23" name="SEG_D" type="output"/>
+        <pin num="24" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="NEO6MV2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NEO6MV2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PPS" type="output"/>
+        <pin num="2" name="RX" type="output"/>
+        <pin num="3" name="TX" type="output"/>
+        <pin num="4" name="GND" type="output"/>
+        <pin num="5" name="VCC" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="POT_TRIM">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="Q_PNP_EBC">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="precision-clock-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="precision-clock-rescue">
+      <uri>C:\+mitxela\kicad\clock/precision clock-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/dateA">
+      <node ref="DTenMonth1" pin="7"/>
+      <node ref="DCentury1" pin="7"/>
+      <node ref="DDecade1" pin="7"/>
+      <node ref="DTenDay1" pin="7"/>
+      <node ref="DMonth1" pin="7"/>
+      <node ref="UDateDrv1" pin="14"/>
+      <node ref="DYear1" pin="7"/>
+      <node ref="DMill1" pin="7"/>
+      <node ref="DDay1" pin="7"/>
+    </net>
+    <net code="2" name="/dateB">
+      <node ref="DMonth1" pin="6"/>
+      <node ref="DYear1" pin="6"/>
+      <node ref="DTenDay1" pin="6"/>
+      <node ref="DDay1" pin="6"/>
+      <node ref="DMill1" pin="6"/>
+      <node ref="DTenMonth1" pin="6"/>
+      <node ref="UDateDrv1" pin="16"/>
+      <node ref="DDecade1" pin="6"/>
+      <node ref="DCentury1" pin="6"/>
+    </net>
+    <net code="3" name="/dateG">
+      <node ref="DYear1" pin="10"/>
+      <node ref="DTenDay1" pin="10"/>
+      <node ref="DMill1" pin="10"/>
+      <node ref="DMonth1" pin="10"/>
+      <node ref="DCentury1" pin="10"/>
+      <node ref="DDecade1" pin="10"/>
+      <node ref="UDateDrv1" pin="17"/>
+      <node ref="DTenMonth1" pin="10"/>
+      <node ref="DDay1" pin="10"/>
+    </net>
+    <net code="4" name="/dateF">
+      <node ref="DDecade1" pin="9"/>
+      <node ref="UDateDrv1" pin="15"/>
+      <node ref="DTenMonth1" pin="9"/>
+      <node ref="DYear1" pin="9"/>
+      <node ref="DMill1" pin="9"/>
+      <node ref="DDay1" pin="9"/>
+      <node ref="DTenDay1" pin="9"/>
+      <node ref="DMonth1" pin="9"/>
+      <node ref="DCentury1" pin="9"/>
+    </net>
+    <net code="5" name="Net-(DTenHr1-Pad3)">
+      <node ref="DTenHr1" pin="8"/>
+      <node ref="DTenHr1" pin="3"/>
+      <node ref="UTimeDrv1" pin="8"/>
+    </net>
+    <net code="6" name="/dateE">
+      <node ref="DTenMonth1" pin="1"/>
+      <node ref="DTenDay1" pin="1"/>
+      <node ref="UDateDrv1" pin="21"/>
+      <node ref="DDay1" pin="1"/>
+      <node ref="DMonth1" pin="1"/>
+      <node ref="DYear1" pin="1"/>
+      <node ref="DDecade1" pin="1"/>
+      <node ref="DCentury1" pin="1"/>
+      <node ref="DMill1" pin="1"/>
+    </net>
+    <net code="7" name="/dateD">
+      <node ref="DYear1" pin="2"/>
+      <node ref="DDay1" pin="2"/>
+      <node ref="DTenMonth1" pin="2"/>
+      <node ref="UDateDrv1" pin="23"/>
+      <node ref="DMonth1" pin="2"/>
+      <node ref="DCentury1" pin="2"/>
+      <node ref="DDecade1" pin="2"/>
+      <node ref="DTenDay1" pin="2"/>
+      <node ref="DMill1" pin="2"/>
+    </net>
+    <net code="8" name="/dateC">
+      <node ref="DMill1" pin="4"/>
+      <node ref="DDecade1" pin="4"/>
+      <node ref="DCentury1" pin="4"/>
+      <node ref="UDateDrv1" pin="20"/>
+      <node ref="DMonth1" pin="4"/>
+      <node ref="DTenMonth1" pin="4"/>
+      <node ref="DTenDay1" pin="4"/>
+      <node ref="DDay1" pin="4"/>
+      <node ref="DYear1" pin="4"/>
+    </net>
+    <net code="9" name="Net-(DSec1-Pad3)">
+      <node ref="DSec1" pin="8"/>
+      <node ref="DSec1" pin="3"/>
+      <node ref="UTimeDrv1" pin="6"/>
+    </net>
+    <net code="10" name="Net-(DTenMin1-Pad3)">
+      <node ref="DTenMin1" pin="3"/>
+      <node ref="DTenMin1" pin="8"/>
+      <node ref="UTimeDrv1" pin="10"/>
+    </net>
+    <net code="11" name="Net-(DHr1-Pad3)">
+      <node ref="DHr1" pin="8"/>
+      <node ref="DHr1" pin="3"/>
+      <node ref="UTimeDrv1" pin="5"/>
+    </net>
+    <net code="12" name="Net-(DMin1-Pad3)">
+      <node ref="DMin1" pin="8"/>
+      <node ref="DMin1" pin="3"/>
+      <node ref="UTimeDrv1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(DTenSec1-Pad3)">
+      <node ref="UTimeDrv1" pin="7"/>
+      <node ref="DTenSec1" pin="3"/>
+      <node ref="DTenSec1" pin="8"/>
+    </net>
+    <net code="14" name="Net-(LDR1-Pad2)">
+      <node ref="LDR1" pin="2"/>
+      <node ref="R_Min_Bright1" pin="2"/>
+      <node ref="R_Max_Bright1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(DDay1-Pad3)">
+      <node ref="D_BST1" pin="1"/>
+      <node ref="DDay1" pin="3"/>
+      <node ref="DDay1" pin="8"/>
+      <node ref="D_BST2" pin="1"/>
+      <node ref="UDateDrv1" pin="2"/>
+    </net>
+    <net code="16" name="/dateDP">
+      <node ref="D_GMT1" pin="2"/>
+      <node ref="UDateDrv1" pin="22"/>
+      <node ref="D_GMT2" pin="2"/>
+      <node ref="DHyphenYear1" pin="10"/>
+      <node ref="D_BST2" pin="2"/>
+      <node ref="DHyphenMonth1" pin="10"/>
+      <node ref="D_BST1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(LDR1-Pad1)">
+      <node ref="LDR1" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R_Min_Bright1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(DMill1-Pad3)">
+      <node ref="DMill1" pin="8"/>
+      <node ref="UDateDrv1" pin="8"/>
+      <node ref="DMill1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(DCentury1-Pad3)">
+      <node ref="UDateDrv1" pin="5"/>
+      <node ref="DCentury1" pin="8"/>
+      <node ref="DCentury1" pin="3"/>
+    </net>
+    <net code="20" name="+5V">
+      <node ref="U1" pin="3"/>
+      <node ref="UTimeDrv1" pin="19"/>
+      <node ref="UDateDrv1" pin="19"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="21" name="/timeC">
+      <node ref="DDeciSec1" pin="4"/>
+      <node ref="DCentiSec1" pin="4"/>
+      <node ref="DSec1" pin="4"/>
+      <node ref="DTenSec1" pin="4"/>
+      <node ref="DTenHr1" pin="4"/>
+      <node ref="DHr1" pin="4"/>
+      <node ref="DTenMin1" pin="4"/>
+      <node ref="UTimeDrv1" pin="20"/>
+      <node ref="DMin1" pin="4"/>
+    </net>
+    <net code="22" name="/timeD">
+      <node ref="DTenSec1" pin="2"/>
+      <node ref="DSec1" pin="2"/>
+      <node ref="DCentiSec1" pin="2"/>
+      <node ref="DHr1" pin="2"/>
+      <node ref="UTimeDrv1" pin="23"/>
+      <node ref="DMin1" pin="2"/>
+      <node ref="DTenMin1" pin="2"/>
+      <node ref="DDeciSec1" pin="2"/>
+      <node ref="DTenHr1" pin="2"/>
+    </net>
+    <net code="23" name="/timeE">
+      <node ref="UTimeDrv1" pin="21"/>
+      <node ref="DMin1" pin="1"/>
+      <node ref="DDeciSec1" pin="1"/>
+      <node ref="DTenHr1" pin="1"/>
+      <node ref="DSec1" pin="1"/>
+      <node ref="DTenMin1" pin="1"/>
+      <node ref="DTenSec1" pin="1"/>
+      <node ref="DCentiSec1" pin="1"/>
+      <node ref="DHr1" pin="1"/>
+    </net>
+    <net code="24" name="/timeF">
+      <node ref="DTenHr1" pin="9"/>
+      <node ref="DTenSec1" pin="9"/>
+      <node ref="DDeciSec1" pin="9"/>
+      <node ref="DHr1" pin="9"/>
+      <node ref="DSec1" pin="9"/>
+      <node ref="UTimeDrv1" pin="15"/>
+      <node ref="DTenMin1" pin="9"/>
+      <node ref="DCentiSec1" pin="9"/>
+      <node ref="DMin1" pin="9"/>
+    </net>
+    <net code="25" name="/timeG">
+      <node ref="DDeciSec1" pin="10"/>
+      <node ref="DTenHr1" pin="10"/>
+      <node ref="DMin1" pin="10"/>
+      <node ref="UTimeDrv1" pin="17"/>
+      <node ref="DTenMin1" pin="10"/>
+      <node ref="DHr1" pin="10"/>
+      <node ref="DCentiSec1" pin="10"/>
+      <node ref="DTenSec1" pin="10"/>
+      <node ref="DSec1" pin="10"/>
+    </net>
+    <net code="26" name="/timeA">
+      <node ref="UTimeDrv1" pin="14"/>
+      <node ref="DCentiSec1" pin="7"/>
+      <node ref="DTenHr1" pin="7"/>
+      <node ref="DTenMin1" pin="7"/>
+      <node ref="DMin1" pin="7"/>
+      <node ref="DSec1" pin="7"/>
+      <node ref="DHr1" pin="7"/>
+      <node ref="DTenSec1" pin="7"/>
+      <node ref="DDeciSec1" pin="7"/>
+    </net>
+    <net code="27" name="/timeB">
+      <node ref="UTimeDrv1" pin="16"/>
+      <node ref="DTenMin1" pin="6"/>
+      <node ref="DSec1" pin="6"/>
+      <node ref="DMin1" pin="6"/>
+      <node ref="DDeciSec1" pin="6"/>
+      <node ref="DCentiSec1" pin="6"/>
+      <node ref="DTenHr1" pin="6"/>
+      <node ref="DHr1" pin="6"/>
+      <node ref="DTenSec1" pin="6"/>
+    </net>
+    <net code="28" name="/timeDP">
+      <node ref="DColonHM2" pin="2"/>
+      <node ref="UTimeDrv1" pin="22"/>
+      <node ref="DColonMS2" pin="2"/>
+      <node ref="DColonHM1" pin="2"/>
+      <node ref="DSec1" pin="5"/>
+    </net>
+    <net code="29" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="30" name="Net-(R_Max_Bright1-Pad3)">
+      <node ref="R_Max_Bright1" pin="3"/>
+    </net>
+    <net code="31" name="Net-(DDecade1-Pad3)">
+      <node ref="DDecade1" pin="3"/>
+      <node ref="DDecade1" pin="8"/>
+      <node ref="UDateDrv1" pin="10"/>
+    </net>
+    <net code="32" name="Net-(DHyphenYear1-Pad3)">
+      <node ref="DHyphenYear1" pin="8"/>
+      <node ref="DHyphenYear1" pin="3"/>
+      <node ref="DYear1" pin="8"/>
+      <node ref="UDateDrv1" pin="3"/>
+      <node ref="DYear1" pin="3"/>
+    </net>
+    <net code="33" name="Net-(DTenMonth1-Pad3)">
+      <node ref="DTenMonth1" pin="8"/>
+      <node ref="UDateDrv1" pin="7"/>
+      <node ref="DTenMonth1" pin="3"/>
+    </net>
+    <net code="34" name="Net-(DHyphenMonth1-Pad3)">
+      <node ref="UDateDrv1" pin="6"/>
+      <node ref="DMonth1" pin="8"/>
+      <node ref="DHyphenMonth1" pin="8"/>
+      <node ref="DMonth1" pin="3"/>
+      <node ref="DHyphenMonth1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(D_PPS1-Pad1)">
+      <node ref="D_PPS1" pin="1"/>
+      <node ref="R_PPS1" pin="1"/>
+    </net>
+    <net code="36" name="GND">
+      <node ref="U_CONTROL1" pin="10"/>
+      <node ref="UTimeDrv1" pin="9"/>
+      <node ref="R_PPS1" pin="2"/>
+      <node ref="UTimeDrv1" pin="4"/>
+      <node ref="UDateDrv1" pin="9"/>
+      <node ref="UDateDrv1" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U_GPS1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="37" name="/VDD_3V3">
+      <node ref="U_GPS1" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U_CONTROL1" pin="20"/>
+    </net>
+    <net code="38" name="Net-(U_CONTROL1-Pad2)">
+      <node ref="U_GPS1" pin="3"/>
+      <node ref="U_CONTROL1" pin="2"/>
+    </net>
+    <net code="39" name="/ISET_TIME">
+      <node ref="UTimeDrv1" pin="18"/>
+    </net>
+    <net code="40" name="Net-(D_PPS1-Pad2)">
+      <node ref="D_PPS1" pin="2"/>
+      <node ref="U_CONTROL1" pin="6"/>
+      <node ref="U_GPS1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(U_GPS1-Pad2)">
+      <node ref="U_GPS1" pin="2"/>
+    </net>
+    <net code="42" name="/ISET_DATE">
+      <node ref="R_Max_Bright1" pin="2"/>
+      <node ref="UDateDrv1" pin="18"/>
+    </net>
+    <net code="43" name="Net-(DTenDay1-Pad3)">
+      <node ref="DTenDay1" pin="8"/>
+      <node ref="D_GMT1" pin="1"/>
+      <node ref="DTenDay1" pin="3"/>
+      <node ref="D_GMT2" pin="1"/>
+      <node ref="UDateDrv1" pin="11"/>
+    </net>
+    <net code="44" name="Net-(DCentiSec1-Pad3)">
+      <node ref="DCentiSec1" pin="3"/>
+      <node ref="UTimeDrv1" pin="2"/>
+      <node ref="DCentiSec1" pin="8"/>
+      <node ref="DColonMS2" pin="1"/>
+      <node ref="DColonMS1" pin="1"/>
+    </net>
+    <net code="45" name="Net-(DColonHM1-Pad1)">
+      <node ref="DDeciSec1" pin="8"/>
+      <node ref="DColonHM2" pin="1"/>
+      <node ref="UTimeDrv1" pin="11"/>
+      <node ref="DDeciSec1" pin="3"/>
+      <node ref="DColonHM1" pin="1"/>
+    </net>
+    <net code="46" name="Net-(UDateDrv1-Pad24)">
+      <node ref="UDateDrv1" pin="24"/>
+    </net>
+    <net code="47" name="Net-(DDay1-Pad5)">
+      <node ref="DDay1" pin="5"/>
+    </net>
+    <net code="48" name="Net-(DHyphenMonth1-Pad9)">
+      <node ref="DHyphenMonth1" pin="9"/>
+    </net>
+    <net code="49" name="Net-(DTenHr1-Pad5)">
+      <node ref="DTenHr1" pin="5"/>
+    </net>
+    <net code="50" name="Net-(DHyphenYear1-Pad6)">
+      <node ref="DHyphenYear1" pin="6"/>
+    </net>
+    <net code="51" name="Net-(DHyphenYear1-Pad1)">
+      <node ref="DHyphenYear1" pin="1"/>
+    </net>
+    <net code="52" name="Net-(DHyphenYear1-Pad2)">
+      <node ref="DHyphenYear1" pin="2"/>
+    </net>
+    <net code="53" name="Net-(DHyphenYear1-Pad4)">
+      <node ref="DHyphenYear1" pin="4"/>
+    </net>
+    <net code="54" name="Net-(DHyphenYear1-Pad5)">
+      <node ref="DHyphenYear1" pin="5"/>
+    </net>
+    <net code="55" name="Net-(DTenDay1-Pad5)">
+      <node ref="DTenDay1" pin="5"/>
+    </net>
+    <net code="56" name="Net-(DHyphenYear1-Pad7)">
+      <node ref="DHyphenYear1" pin="7"/>
+    </net>
+    <net code="57" name="Net-(DHyphenYear1-Pad9)">
+      <node ref="DHyphenYear1" pin="9"/>
+    </net>
+    <net code="58" name="Net-(DHyphenMonth1-Pad1)">
+      <node ref="DHyphenMonth1" pin="1"/>
+    </net>
+    <net code="59" name="Net-(DHyphenMonth1-Pad2)">
+      <node ref="DHyphenMonth1" pin="2"/>
+    </net>
+    <net code="60" name="Net-(DHyphenMonth1-Pad4)">
+      <node ref="DHyphenMonth1" pin="4"/>
+    </net>
+    <net code="61" name="Net-(DHyphenMonth1-Pad5)">
+      <node ref="DHyphenMonth1" pin="5"/>
+    </net>
+    <net code="62" name="Net-(DHyphenMonth1-Pad6)">
+      <node ref="DHyphenMonth1" pin="6"/>
+    </net>
+    <net code="63" name="Net-(DHyphenMonth1-Pad7)">
+      <node ref="DHyphenMonth1" pin="7"/>
+    </net>
+    <net code="64" name="Net-(DDecade1-Pad5)">
+      <node ref="DDecade1" pin="5"/>
+    </net>
+    <net code="65" name="Net-(DMill1-Pad5)">
+      <node ref="DMill1" pin="5"/>
+    </net>
+    <net code="66" name="Net-(DCentury1-Pad5)">
+      <node ref="DCentury1" pin="5"/>
+    </net>
+    <net code="67" name="Net-(DMonth1-Pad5)">
+      <node ref="DMonth1" pin="5"/>
+    </net>
+    <net code="68" name="Net-(DYear1-Pad5)">
+      <node ref="DYear1" pin="5"/>
+    </net>
+    <net code="69" name="Net-(DTenMonth1-Pad5)">
+      <node ref="DTenMonth1" pin="5"/>
+    </net>
+    <net code="70" name="/SPI_DATA">
+      <node ref="UTimeDrv1" pin="1"/>
+      <node ref="UDateDrv1" pin="1"/>
+      <node ref="U_CONTROL1" pin="12"/>
+    </net>
+    <net code="71" name="/SPI_CLK">
+      <node ref="UDateDrv1" pin="13"/>
+      <node ref="UTimeDrv1" pin="13"/>
+      <node ref="U_CONTROL1" pin="13"/>
+    </net>
+    <net code="72" name="/LD_TIME">
+      <node ref="UTimeDrv1" pin="12"/>
+      <node ref="U_CONTROL1" pin="14"/>
+    </net>
+    <net code="73" name="/LD_DATE">
+      <node ref="U_CONTROL1" pin="15"/>
+      <node ref="UDateDrv1" pin="12"/>
+    </net>
+    <net code="74" name="Net-(U_CONTROL1-Pad1)">
+      <node ref="U_CONTROL1" pin="1"/>
+    </net>
+    <net code="75" name="Net-(U_CONTROL1-Pad16)">
+      <node ref="U_CONTROL1" pin="16"/>
+    </net>
+    <net code="76" name="Net-(U_CONTROL1-Pad17)">
+      <node ref="U_CONTROL1" pin="17"/>
+    </net>
+    <net code="77" name="Net-(U_CONTROL1-Pad18)">
+      <node ref="U_CONTROL1" pin="18"/>
+    </net>
+    <net code="78" name="Net-(U_CONTROL1-Pad19)">
+      <node ref="U_CONTROL1" pin="19"/>
+    </net>
+    <net code="79" name="Net-(U_CONTROL1-Pad3)">
+      <node ref="U_CONTROL1" pin="3"/>
+    </net>
+    <net code="80" name="Net-(U_CONTROL1-Pad4)">
+      <node ref="U_CONTROL1" pin="4"/>
+    </net>
+    <net code="81" name="Net-(U_CONTROL1-Pad5)">
+      <node ref="U_CONTROL1" pin="5"/>
+    </net>
+    <net code="82" name="Net-(U_CONTROL1-Pad7)">
+      <node ref="U_CONTROL1" pin="7"/>
+    </net>
+    <net code="83" name="Net-(U_CONTROL1-Pad8)">
+      <node ref="U_CONTROL1" pin="8"/>
+    </net>
+    <net code="84" name="Net-(U_CONTROL1-Pad9)">
+      <node ref="U_CONTROL1" pin="9"/>
+    </net>
+    <net code="85" name="/DST_EN*">
+      <node ref="U_CONTROL1" pin="11"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="86" name="Net-(DTenSec1-Pad5)">
+      <node ref="DTenSec1" pin="5"/>
+    </net>
+    <net code="87" name="Net-(DTenMin1-Pad5)">
+      <node ref="DTenMin1" pin="5"/>
+    </net>
+    <net code="88" name="Net-(DHr1-Pad5)">
+      <node ref="DHr1" pin="5"/>
+    </net>
+    <net code="89" name="Net-(DDeciSec1-Pad5)">
+      <node ref="DDeciSec1" pin="5"/>
+    </net>
+    <net code="90" name="Net-(DMin1-Pad5)">
+      <node ref="DMin1" pin="5"/>
+    </net>
+    <net code="91" name="Net-(UTimeDrv1-Pad24)">
+      <node ref="UTimeDrv1" pin="24"/>
+    </net>
+    <net code="92" name="Net-(DColonMS1-Pad2)">
+      <node ref="DColonMS1" pin="2"/>
+    </net>
+    <net code="93" name="Net-(DCentiSec1-Pad5)">
+      <node ref="DCentiSec1" pin="5"/>
+    </net>
+  </nets>
+</export>

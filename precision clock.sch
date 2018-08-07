@@ -215,12 +215,12 @@ dateF
 Text Label 2200 4950 0    60   ~ 0
 dateG
 $Comp
-L precision-clock-rescue:MAX7219 UDateDrv
+L precision-clock-rescue:MAX7219 UDateDrv1
 U 1 1 5B5FFFB1
 P 4950 3550
-F 0 "UDateDrv" H 4700 4650 60  0000 C CNN
+F 0 "UDateDrv1" H 4700 4650 60  0000 C CNN
 F 1 "MAX7219" H 5000 4650 60  0000 C CNN
-F 2 "" H 5100 3550 60  0001 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm" H 5100 3550 60  0001 C CNN
 F 3 "" H 5100 3550 60  0001 C CNN
 	1    4950 3550
 	1    0    0    -1  
@@ -270,34 +270,32 @@ dateDP
 $Comp
 L precision-clock-rescue:LED D_GMT1
 U 1 1 5B6038BF
-P 4050 4400
-F 0 "D_GMT1" H 4050 4500 50  0000 C CNN
-F 1 "LED" H 4050 4300 50  0000 C CNN
-F 2 "" H 4050 4400 50  0001 C CNN
-F 3 "" H 4050 4400 50  0001 C CNN
-	1    4050 4400
+P 4100 4100
+F 0 "D_GMT1" H 4100 4200 50  0000 C CNN
+F 1 "LED" H 4100 4000 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4100 4100 50  0001 C CNN
+F 3 "" H 4100 4100 50  0001 C CNN
+	1    4100 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L precision-clock-rescue:LED D_BST1
 U 1 1 5B60395C
-P 4050 4700
-F 0 "D_BST1" H 4050 4800 50  0000 C CNN
-F 1 "LED" H 4050 4600 50  0000 C CNN
-F 2 "" H 4050 4700 50  0001 C CNN
-F 3 "" H 4050 4700 50  0001 C CNN
-	1    4050 4700
+P 4100 5050
+F 0 "D_BST1" H 4100 5150 50  0000 C CNN
+F 1 "LED" H 4100 4950 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4100 5050 50  0001 C CNN
+F 3 "" H 4100 5050 50  0001 C CNN
+	1    4100 5050
 	1    0    0    -1  
 $EndComp
-Text Label 4500 4400 2    60   ~ 0
-dateDP
-Text Label 4500 4700 2    60   ~ 0
+Text Label 4900 4550 2    60   ~ 0
 dateDP
 $Comp
-L precision-clock-rescue:KCSC02-105 DTenHr
+L precision-clock-rescue:KCSC02-105 DTenHr1
 U 1 1 5B6048AA
 P 7000 1200
-F 0 "DTenHr" H 6890 1650 50  0000 R CNN
+F 0 "DTenHr1" H 6890 1650 50  0000 R CNN
 F 1 "KCSC02-105" H 7040 1650 50  0000 L CNN
 F 2 "precision clock:7seg1inchCC" H 7000 600 50  0001 C CNN
 F 3 "" H 6500 1675 50  0001 L CNN
@@ -319,10 +317,10 @@ timeF
 Text Label 6400 1500 0    60   ~ 0
 timeG
 $Comp
-L precision-clock-rescue:KCSC02-105 DHr
+L precision-clock-rescue:KCSC02-105 DHr1
 U 1 1 5B6048B8
 P 7000 2350
-F 0 "DHr" H 6890 2800 50  0000 R CNN
+F 0 "DHr1" H 6890 2800 50  0000 R CNN
 F 1 "KCSC02-105" H 7040 2800 50  0000 L CNN
 F 2 "precision clock:7seg1inchCC" H 7000 1750 50  0001 C CNN
 F 3 "" H 6500 2825 50  0001 L CNN
@@ -330,10 +328,10 @@ F 3 "" H 6500 2825 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:KCSC02-105 DTenMin
+L precision-clock-rescue:KCSC02-105 DTenMin1
 U 1 1 5B6048C6
 P 7000 3500
-F 0 "DTenMin" H 6890 3950 50  0000 R CNN
+F 0 "DTenMin1" H 6890 3950 50  0000 R CNN
 F 1 "KCSC02-105" H 7040 3950 50  0000 L CNN
 F 2 "precision clock:7seg1inchCC" H 7000 2900 50  0001 C CNN
 F 3 "" H 6500 3975 50  0001 L CNN
@@ -341,10 +339,10 @@ F 3 "" H 6500 3975 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:KCSC02-105 DMin
+L precision-clock-rescue:KCSC02-105 DMin1
 U 1 1 5B6048D4
 P 7000 4650
-F 0 "DMin" H 6890 5100 50  0000 R CNN
+F 0 "DMin1" H 6890 5100 50  0000 R CNN
 F 1 "KCSC02-105" H 7040 5100 50  0000 L CNN
 F 2 "precision clock:7seg1inchCC" H 7000 4050 50  0001 C CNN
 F 3 "" H 6500 5125 50  0001 L CNN
@@ -352,10 +350,10 @@ F 3 "" H 6500 5125 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:KCSC02-105 DTenSec
+L precision-clock-rescue:KCSC02-105 DTenSec1
 U 1 1 5B6048E1
 P 8250 1200
-F 0 "DTenSec" H 8140 1650 50  0000 R CNN
+F 0 "DTenSec1" H 8140 1650 50  0000 R CNN
 F 1 "KCSC02-105" H 8290 1650 50  0000 L CNN
 F 2 "precision clock:7seg1inchCC" H 8250 600 50  0001 C CNN
 F 3 "" H 7750 1675 50  0001 L CNN
@@ -363,10 +361,10 @@ F 3 "" H 7750 1675 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:KCSC02-105 DSec
+L precision-clock-rescue:KCSC02-105 DSec1
 U 1 1 5B6048EF
 P 8250 2350
-F 0 "DSec" H 8140 2800 50  0000 R CNN
+F 0 "DSec1" H 8140 2800 50  0000 R CNN
 F 1 "KCSC02-105" H 8290 2800 50  0000 L CNN
 F 2 "precision clock:7seg1inchCC" H 8250 1750 50  0001 C CNN
 F 3 "" H 7750 2825 50  0001 L CNN
@@ -374,10 +372,10 @@ F 3 "" H 7750 2825 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:KCSC02-105 DDeciSec
+L precision-clock-rescue:KCSC02-105 DDeciSec1
 U 1 1 5B6048FC
 P 8250 3500
-F 0 "DDeciSec" H 8140 3950 50  0000 R CNN
+F 0 "DDeciSec1" H 8140 3950 50  0000 R CNN
 F 1 "KCSC02-105" H 8290 3950 50  0000 L CNN
 F 2 "precision clock:7seg1inchCC" H 8250 2900 50  0001 C CNN
 F 3 "" H 7750 3975 50  0001 L CNN
@@ -385,10 +383,10 @@ F 3 "" H 7750 3975 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:KCSC02-105 DCentiSec
+L precision-clock-rescue:KCSC02-105 DCentiSec1
 U 1 1 5B604909
 P 8250 4650
-F 0 "DCentiSec" H 8140 5100 50  0000 R CNN
+F 0 "DCentiSec1" H 8140 5100 50  0000 R CNN
 F 1 "KCSC02-105" H 8290 5100 50  0000 L CNN
 F 2 "precision clock:7seg1inchCC" H 8250 4050 50  0001 C CNN
 F 3 "" H 7750 5125 50  0001 L CNN
@@ -396,12 +394,12 @@ F 3 "" H 7750 5125 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:MAX7219 UTimeDrv
+L precision-clock-rescue:MAX7219 UTimeDrv1
 U 1 1 5B604916
 P 10650 3550
-F 0 "UTimeDrv" H 10400 4650 60  0000 C CNN
+F 0 "UTimeDrv1" H 10400 4650 60  0000 C CNN
 F 1 "MAX7219" H 10700 4650 60  0000 C CNN
-F 2 "" H 10800 3550 60  0001 C CNN
+F 2 "Package_DIP:DIP-24_W7.62mm" H 10800 3550 60  0001 C CNN
 F 3 "" H 10800 3550 60  0001 C CNN
 	1    10650 3550
 	1    0    0    -1  
@@ -423,23 +421,23 @@ timeG
 Text Label 11400 3900 2    60   ~ 0
 timeDP
 $Comp
-L precision-clock-rescue:LED DColonHM
+L precision-clock-rescue:LED DColonHM2
 U 1 1 5B604932
 P 9650 4450
-F 0 "DColonHM" H 9650 4550 50  0000 C CNN
+F 0 "DColonHM2" H 9650 4550 50  0000 C CNN
 F 1 "LED" H 9650 4350 50  0000 C CNN
-F 2 "" H 9650 4450 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 9650 4450 50  0001 C CNN
 F 3 "" H 9650 4450 50  0001 C CNN
 	1    9650 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:LED DColonMS
+L precision-clock-rescue:LED DColonMS1
 U 1 1 5B604938
 P 9650 4750
-F 0 "DColonMS" H 9650 4850 50  0000 C CNN
+F 0 "DColonMS1" H 9650 4850 50  0000 C CNN
 F 1 "LED" H 9650 4650 50  0000 C CNN
-F 2 "" H 9650 4750 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 9650 4750 50  0001 C CNN
 F 3 "" H 9650 4750 50  0001 C CNN
 	1    9650 4750
 	1    0    0    -1  
@@ -447,43 +445,43 @@ $EndComp
 Text Label 10700 4600 2    60   ~ 0
 timeDP
 $Comp
-L precision-clock-rescue:LED DColonMS?
+L precision-clock-rescue:LED DColonMS2
 U 1 1 5B609827
 P 9650 5050
-F 0 "DColonMS?" H 9650 5150 50  0000 C CNN
+F 0 "DColonMS2" H 9650 5150 50  0000 C CNN
 F 1 "LED" H 9650 4950 50  0000 C CNN
-F 2 "" H 9650 5050 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 9650 5050 50  0001 C CNN
 F 3 "" H 9650 5050 50  0001 C CNN
 	1    9650 5050
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:LED DColonHM?
+L precision-clock-rescue:LED DColonHM1
 U 1 1 5B609A77
 P 9650 4150
-F 0 "DColonHM?" H 9650 4250 50  0000 C CNN
+F 0 "DColonHM1" H 9650 4250 50  0000 C CNN
 F 1 "LED" H 9650 4050 50  0000 C CNN
-F 2 "" H 9650 4150 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 9650 4150 50  0001 C CNN
 F 3 "" H 9650 4150 50  0001 C CNN
 	1    9650 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:ATTINY2313A-PU U_CONTROL
+L precision-clock-rescue:ATTINY2313A-PU U_CONTROL1
 U 1 1 5B60B96D
 P 3150 9150
-F 0 "U_CONTROL" H 2000 10150 50  0000 C CNN
+F 0 "U_CONTROL1" H 2000 10150 50  0000 C CNN
 F 1 "ATTINY2313A-PU" H 4100 8250 50  0000 C CNN
-F 2 "Housings_DIP:DIP-20_W7.62mm" H 3150 9150 50  0001 C CIN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 3150 9150 50  0001 C CIN
 F 3 "" H 3150 9150 50  0001 C CNN
 	1    3150 9150
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0101
 U 1 1 5B60DF4C
 P 11400 2750
-F 0 "#PWR?" H 11400 2500 50  0001 C CNN
+F 0 "#PWR0101" H 11400 2500 50  0001 C CNN
 F 1 "GND" H 11400 2600 50  0000 C CNN
 F 2 "" H 11400 2750 50  0001 C CNN
 F 3 "" H 11400 2750 50  0001 C CNN
@@ -491,10 +489,10 @@ F 3 "" H 11400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0102
 U 1 1 5B60E347
 P 5750 2750
-F 0 "#PWR?" H 5750 2500 50  0001 C CNN
+F 0 "#PWR0102" H 5750 2500 50  0001 C CNN
 F 1 "GND" H 5750 2600 50  0000 C CNN
 F 2 "" H 5750 2750 50  0001 C CNN
 F 3 "" H 5750 2750 50  0001 C CNN
@@ -502,10 +500,10 @@ F 3 "" H 5750 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:+5V #PWR?
+L precision-clock-rescue:+5V #PWR0103
 U 1 1 5B6102B3
 P 14150 800
-F 0 "#PWR?" H 14150 650 50  0001 C CNN
+F 0 "#PWR0103" H 14150 650 50  0001 C CNN
 F 1 "+5V" H 14150 940 50  0000 C CNN
 F 2 "" H 14150 800 50  0001 C CNN
 F 3 "" H 14150 800 50  0001 C CNN
@@ -513,12 +511,12 @@ F 3 "" H 14150 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:AP1117-33 U?
+L precision-clock-rescue:AP1117-33 U1
 U 1 1 5B610369
 P 14850 800
-F 0 "U?" H 14700 925 50  0000 C CNN
-F 1 "AP1117-33" H 14850 925 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 14850 1000 50  0001 C CNN
+F 0 "U1" H 14700 925 50  0000 C CNN
+F 1 "MCP1700-33" H 14850 925 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 14850 1000 50  0001 C CNN
 F 3 "" H 14950 550 50  0001 C CNN
 	1    14850 800 
 	1    0    0    -1  
@@ -526,10 +524,10 @@ $EndComp
 Text Label 15550 800  0    60   ~ 0
 VDD_3V3
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0104
 U 1 1 5B6108AD
 P 14850 1100
-F 0 "#PWR?" H 14850 850 50  0001 C CNN
+F 0 "#PWR0104" H 14850 850 50  0001 C CNN
 F 1 "GND" H 14850 950 50  0000 C CNN
 F 2 "" H 14850 1100 50  0001 C CNN
 F 3 "" H 14850 1100 50  0001 C CNN
@@ -537,21 +535,21 @@ F 3 "" H 14850 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:CP C?
+L precision-clock-rescue:CP C1
 U 1 1 5B610931
 P 14400 1000
-F 0 "C?" H 14425 1100 50  0000 L CNN
-F 1 "CP" H 14425 900 50  0000 L CNN
-F 2 "" H 14438 850 50  0001 C CNN
+F 0 "C1" H 14425 1100 50  0000 L CNN
+F 1 "1u" H 14425 900 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 14438 850 50  0001 C CNN
 F 3 "" H 14400 1000 50  0001 C CNN
 	1    14400 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0105
 U 1 1 5B610DA1
 P 14400 1150
-F 0 "#PWR?" H 14400 900 50  0001 C CNN
+F 0 "#PWR0105" H 14400 900 50  0001 C CNN
 F 1 "GND" H 14400 1000 50  0000 C CNN
 F 2 "" H 14400 1150 50  0001 C CNN
 F 3 "" H 14400 1150 50  0001 C CNN
@@ -559,21 +557,21 @@ F 3 "" H 14400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:CP C?
+L precision-clock-rescue:CP C2
 U 1 1 5B610E29
 P 15300 1000
-F 0 "C?" H 15325 1100 50  0000 L CNN
-F 1 "CP" H 15325 900 50  0000 L CNN
-F 2 "" H 15338 850 50  0001 C CNN
+F 0 "C2" H 15325 1100 50  0000 L CNN
+F 1 "1u" H 15325 900 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 15338 850 50  0001 C CNN
 F 3 "" H 15300 1000 50  0001 C CNN
 	1    15300 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0106
 U 1 1 5B610EE4
 P 15300 1150
-F 0 "#PWR?" H 15300 900 50  0001 C CNN
+F 0 "#PWR0106" H 15300 900 50  0001 C CNN
 F 1 "GND" H 15300 1000 50  0000 C CNN
 F 2 "" H 15300 1150 50  0001 C CNN
 F 3 "" H 15300 1150 50  0001 C CNN
@@ -583,21 +581,21 @@ $EndComp
 Text Label 3250 7650 0    60   ~ 0
 VDD_3V3
 $Comp
-L precision-clock-rescue:C C?
+L precision-clock-rescue:C C3
 U 1 1 5B61530A
 P 3450 7900
-F 0 "C?" H 3475 8000 50  0000 L CNN
+F 0 "C3" H 3475 8000 50  0000 L CNN
 F 1 "C" H 3475 7800 50  0000 L CNN
-F 2 "" H 3488 7750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3488 7750 50  0001 C CNN
 F 3 "" H 3450 7900 50  0001 C CNN
 	1    3450 7900
 	0    1    1    0   
 $EndComp
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0107
 U 1 1 5B615610
 P 3700 7900
-F 0 "#PWR?" H 3700 7650 50  0001 C CNN
+F 0 "#PWR0107" H 3700 7650 50  0001 C CNN
 F 1 "GND" H 3700 7750 50  0000 C CNN
 F 2 "" H 3700 7900 50  0001 C CNN
 F 3 "" H 3700 7900 50  0001 C CNN
@@ -605,10 +603,10 @@ F 3 "" H 3700 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0108
 U 1 1 5B616261
 P 3150 10200
-F 0 "#PWR?" H 3150 9950 50  0001 C CNN
+F 0 "#PWR0108" H 3150 9950 50  0001 C CNN
 F 1 "GND" H 3150 10050 50  0000 C CNN
 F 2 "" H 3150 10200 50  0001 C CNN
 F 3 "" H 3150 10200 50  0001 C CNN
@@ -624,21 +622,21 @@ LD_TIME
 Text Label 4700 8650 0    60   ~ 0
 LD_DATE
 $Comp
-L precision-clock-rescue:Jumper JP?
+L precision-clock-rescue:Jumper JP1
 U 1 1 5B6182F3
 P 5400 9850
-F 0 "JP?" H 5400 10000 50  0000 C CNN
+F 0 "JP1" H 5400 10000 50  0000 C CNN
 F 1 "Jumper" H 5400 9770 50  0000 C CNN
-F 2 "" H 5400 9850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 9850 50  0001 C CNN
 F 3 "" H 5400 9850 50  0001 C CNN
 	1    5400 9850
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0109
 U 1 1 5B6183BA
 P 5800 9850
-F 0 "#PWR?" H 5800 9600 50  0001 C CNN
+F 0 "#PWR0109" H 5800 9600 50  0001 C CNN
 F 1 "GND" H 5800 9700 50  0000 C CNN
 F 2 "" H 5800 9850 50  0001 C CNN
 F 3 "" H 5800 9850 50  0001 C CNN
@@ -660,10 +658,10 @@ LD_TIME
 Text Label 9650 3700 0    60   ~ 0
 SPI_CLK
 $Comp
-L precision-clock-rescue:+5V #PWR?
+L precision-clock-rescue:+5V #PWR0110
 U 1 1 5B61C2D2
 P 5950 2950
-F 0 "#PWR?" H 5950 2800 50  0001 C CNN
+F 0 "#PWR0110" H 5950 2800 50  0001 C CNN
 F 1 "+5V" H 5950 3090 50  0000 C CNN
 F 2 "" H 5950 2950 50  0001 C CNN
 F 3 "" H 5950 2950 50  0001 C CNN
@@ -673,10 +671,10 @@ $EndComp
 Text Label 5450 3050 0    60   ~ 0
 ISET_DATE
 $Comp
-L precision-clock-rescue:+5V #PWR?
+L precision-clock-rescue:+5V #PWR0111
 U 1 1 5B61CED9
 P 11600 2950
-F 0 "#PWR?" H 11600 2800 50  0001 C CNN
+F 0 "#PWR0111" H 11600 2800 50  0001 C CNN
 F 1 "+5V" H 11600 3090 50  0000 C CNN
 F 2 "" H 11600 2950 50  0001 C CNN
 F 3 "" H 11600 2950 50  0001 C CNN
@@ -786,32 +784,32 @@ timeG
 Text Label 7650 2750 0    60   ~ 0
 timeDP
 $Comp
-L precision-clock-rescue:Q_PNP_EBC Q?
+L precision-clock-rescue:Q_PNP_EBC Q2
 U 1 1 5B628312
 P 5700 5900
-F 0 "Q?" H 5900 5950 50  0000 L CNN
-F 1 "Q_PNP_EBC" H 5900 5850 50  0000 L CNN
-F 2 "" H 5900 6000 50  0001 C CNN
+F 0 "Q2" H 5900 5950 50  0000 L CNN
+F 1 "2N5401" H 5900 5850 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5900 6000 50  0001 C CNN
 F 3 "" H 5700 5900 50  0001 C CNN
 	1    5700 5900
 	1    0    0    1   
 $EndComp
 $Comp
-L precision-clock-rescue:Q_PNP_EBC Q?
+L precision-clock-rescue:Q_PNP_EBC Q1
 U 1 1 5B629439
 P 4900 5900
-F 0 "Q?" H 5100 5950 50  0000 L CNN
-F 1 "Q_PNP_EBC" H 5100 5850 50  0000 L CNN
-F 2 "" H 5100 6000 50  0001 C CNN
+F 0 "Q1" H 5100 5950 50  0000 L CNN
+F 1 "2N5401" H 5100 5850 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5100 6000 50  0001 C CNN
 F 3 "" H 4900 5900 50  0001 C CNN
 	1    4900 5900
 	-1   0    0    1   
 $EndComp
 $Comp
-L precision-clock-rescue:+5V #PWR?
+L precision-clock-rescue:+5V #PWR0112
 U 1 1 5B62963E
 P 5300 5600
-F 0 "#PWR?" H 5300 5450 50  0001 C CNN
+F 0 "#PWR0112" H 5300 5450 50  0001 C CNN
 F 1 "+5V" H 5300 5740 50  0000 C CNN
 F 2 "" H 5300 5600 50  0001 C CNN
 F 3 "" H 5300 5600 50  0001 C CNN
@@ -819,45 +817,39 @@ F 3 "" H 5300 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:LDR03 LDR
+L precision-clock-rescue:LDR03 LDR1
 U 1 1 5B629DDB
 P 4800 6500
-F 0 "LDR" V 4600 6500 50  0000 C CNN
+F 0 "LDR1" V 4600 6500 50  0000 C CNN
 F 1 "LDR03" V 4875 6500 50  0000 C TNN
-F 2 "Opto-Devices:Resistor_LDR_10x8.5_RM7.6" V 4975 6500 50  0001 C CNN
+F 2 "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical" V 4975 6500 50  0001 C CNN
 F 3 "" H 4800 6450 50  0001 C CNN
 	1    4800 6500
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:POT_TRIM R_Max_Bright
+L precision-clock-rescue:POT_TRIM R_Max_Bright1
 U 1 1 5B62A5D9
 P 4800 6900
-F 0 "R_Max_Bright" V 4625 6900 50  0000 C CNN
+F 0 "R_Max_Bright1" V 4625 6900 50  0000 C CNN
 F 1 "50K" V 4700 6900 50  0000 C CNN
-F 2 "" H 4800 6900 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical" H 4800 6900 50  0001 C CNN
 F 3 "" H 4800 6900 50  0001 C CNN
 	1    4800 6900
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:R R_Min_Bright
+L precision-clock-rescue:R R_Min_Bright1
 U 1 1 5B62B115
 P 5150 6500
-F 0 "R_Min_Bright" V 5230 6500 50  0000 C CNN
+F 0 "R_Min_Bright1" V 5230 6500 50  0000 C CNN
 F 1 "10M" V 5150 6500 50  0000 C CNN
-F 2 "" V 5080 6500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5080 6500 50  0001 C CNN
 F 3 "" H 5150 6500 50  0001 C CNN
 	1    5150 6500
 	1    0    0    -1  
 $EndComp
 Connection ~ 3300 5050
-Wire Wire Line
-	3900 5050 3900 4700
-Wire Wire Line
-	4200 4700 4500 4700
-Wire Wire Line
-	4200 4400 4500 4400
 Connection ~ 5100 2150
 Wire Wire Line
 	4950 2050 5100 2050
@@ -1095,9 +1087,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 4950 3300 4950
 Wire Wire Line
-	3900 3900 3900 4400
-Connection ~ 3200 3900
-Wire Wire Line
 	10300 4600 10700 4600
 Connection ~ 7450 1500
 Wire Wire Line
@@ -1242,7 +1231,7 @@ Wire Wire Line
 	9800 4450 10300 4450
 Connection ~ 10300 4450
 Wire Wire Line
-	9850 4750 10300 4750
+	9800 4750 10300 4750
 Connection ~ 10300 4750
 Wire Wire Line
 	11100 2750 11250 2750
@@ -1444,21 +1433,15 @@ Wire Wire Line
 	5800 6100 5800 6300
 Wire Wire Line
 	5800 6300 5450 6300
-Wire Wire Line
-	4800 7050 4800 7200
-Wire Wire Line
-	4800 7200 5200 7200
-Text Label 5350 6300 0    60   ~ 0
+Text Label 5450 6300 0    60   ~ 0
 ISET_TIME
-Text Label 4850 7200 0    60   ~ 0
-ISET_DATE
 $Comp
-L precision-clock-rescue:NEO6MV2 U_GPS
+L precision-clock-rescue:NEO6MV2 U_GPS1
 U 1 1 5B633FB3
 P 9100 8400
-F 0 "U_GPS" H 8650 9750 60  0000 C CNN
+F 0 "U_GPS1" H 8650 9750 60  0000 C CNN
 F 1 "NEO6MV2" H 8650 9650 60  0000 C CNN
-F 2 "" H 8500 9900 60  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8500 9900 60  0001 C CNN
 F 3 "" H 8500 9900 60  0001 C CNN
 	1    9100 8400
 	1    0    0    1   
@@ -1468,10 +1451,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 9250 4500 9250
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0113
 U 1 1 5B634A86
 P 8100 9050
-F 0 "#PWR?" H 8100 8800 50  0001 C CNN
+F 0 "#PWR0113" H 8100 8800 50  0001 C CNN
 F 1 "GND" H 8100 8900 50  0000 C CNN
 F 2 "" H 8100 9050 50  0001 C CNN
 F 3 "" H 8100 9050 50  0001 C CNN
@@ -1485,32 +1468,32 @@ VDD_3V3
 Wire Wire Line
 	8250 9050 8100 9050
 $Comp
-L precision-clock-rescue:LED D_PPS
+L precision-clock-rescue:LED D_PPS1
 U 1 1 5B6355BD
 P 7750 9700
-F 0 "D_PPS" H 7750 9800 50  0000 C CNN
+F 0 "D_PPS1" H 7750 9800 50  0000 C CNN
 F 1 "LED" H 7750 9600 50  0000 C CNN
-F 2 "" H 7750 9700 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 7750 9700 50  0001 C CNN
 F 3 "" H 7750 9700 50  0001 C CNN
 	1    7750 9700
 	0    -1   -1   0   
 $EndComp
 $Comp
-L precision-clock-rescue:R R_PPS
+L precision-clock-rescue:R R_PPS1
 U 1 1 5B635753
 P 7750 10100
-F 0 "R_PPS" V 7830 10100 50  0000 C CNN
+F 0 "R_PPS1" V 7830 10100 50  0000 C CNN
 F 1 "20K" V 7750 10100 50  0000 C CNN
-F 2 "" V 7680 10100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7680 10100 50  0001 C CNN
 F 3 "" H 7750 10100 50  0001 C CNN
 	1    7750 10100
 	1    0    0    -1  
 $EndComp
 $Comp
-L precision-clock-rescue:GND #PWR?
+L precision-clock-rescue:GND #PWR0114
 U 1 1 5B635810
 P 7750 10350
-F 0 "#PWR?" H 7750 10100 50  0001 C CNN
+F 0 "#PWR0114" H 7750 10100 50  0001 C CNN
 F 1 "GND" H 7750 10200 50  0000 C CNN
 F 2 "" H 7750 10350 50  0001 C CNN
 F 3 "" H 7750 10350 50  0001 C CNN
@@ -1524,8 +1507,6 @@ Wire Wire Line
 	7750 9850 7750 9950
 Wire Wire Line
 	7750 10250 7750 10350
-Wire Wire Line
-	3300 5050 3900 5050
 Wire Wire Line
 	5100 2150 5100 2350
 Wire Wire Line
@@ -1550,8 +1531,6 @@ Wire Wire Line
 	3200 3800 3200 3900
 Wire Wire Line
 	3300 4950 3300 5050
-Wire Wire Line
-	3200 3900 3900 3900
 Wire Wire Line
 	7450 1500 7450 1600
 Wire Wire Line
@@ -1604,4 +1583,141 @@ Wire Wire Line
 	4800 6700 4800 6750
 Wire Wire Line
 	7750 9450 4500 9450
+Text Label 5000 6900 0    60   ~ 0
+ISET_DATE
+Wire Wire Line
+	4950 6900 5350 6900
+Wire Wire Line
+	3300 5050 3800 5050
+$Comp
+L precision-clock-rescue:LED D_GMT2
+U 1 1 5B83DF1C
+P 4100 4400
+F 0 "D_GMT2" H 4100 4500 50  0000 C CNN
+F 1 "LED" H 4100 4300 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4100 4400 50  0001 C CNN
+F 3 "" H 4100 4400 50  0001 C CNN
+	1    4100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L precision-clock-rescue:LED D_BST2
+U 1 1 5B83DFCB
+P 4100 4750
+F 0 "D_BST2" H 4100 4850 50  0000 C CNN
+F 1 "LED" H 4100 4650 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4100 4750 50  0001 C CNN
+F 3 "" H 4100 4750 50  0001 C CNN
+	1    4100 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5050 3800 4750
+Wire Wire Line
+	3800 4750 3950 4750
+Connection ~ 3800 5050
+Wire Wire Line
+	3800 5050 3950 5050
+Wire Wire Line
+	3200 3900 3800 3900
+Wire Wire Line
+	3800 4100 3950 4100
+Connection ~ 3200 3900
+Wire Wire Line
+	3800 3900 3800 4100
+Wire Wire Line
+	3800 4400 3950 4400
+Wire Wire Line
+	4250 4100 4250 4400
+Wire Wire Line
+	4250 4750 4250 4550
+Connection ~ 4250 4400
+Wire Wire Line
+	4250 4750 4250 5050
+Connection ~ 4250 4750
+Wire Wire Line
+	4900 4550 4250 4550
+Connection ~ 4250 4550
+Wire Wire Line
+	4250 4550 4250 4400
+Connection ~ 3800 4100
+Wire Wire Line
+	3800 4100 3800 4400
+NoConn ~ 4800 7050
+NoConn ~ 4500 8750
+NoConn ~ 4500 8850
+NoConn ~ 4500 8950
+NoConn ~ 4500 9050
+NoConn ~ 4500 9350
+NoConn ~ 4500 9550
+NoConn ~ 4500 9750
+NoConn ~ 4500 9650
+NoConn ~ 1800 8350
+NoConn ~ 1800 8650
+NoConn ~ 1800 8850
+$Comp
+L barrel_jack:Barrel_Jack J1
+U 1 1 5BFD3F20
+P 12950 900
+F 0 "J1" H 13005 1225 50  0000 C CNN
+F 1 "Barrel_Jack" H 13005 1134 50  0000 C CNN
+F 2 "precision clock:BarrelJack_2" H 13000 860 50  0001 C CNN
+F 3 "~" H 13000 860 50  0001 C CNN
+	1    12950 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5BFF58D9
+P 13250 1000
+F 0 "#PWR0115" H 13250 750 50  0001 C CNN
+F 1 "GND" H 13255 827 50  0000 C CNN
+F 2 "" H 13250 1000 50  0001 C CNN
+F 3 "" H 13250 1000 50  0001 C CNN
+	1    13250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L precision-clock-rescue:+5V #VDD0101
+U 1 1 5C039DEA
+P 13250 800
+F 0 "#VDD0101" H 13250 650 50  0001 C CNN
+F 1 "+5V" H 13250 940 50  0000 C CNN
+F 2 "" H 13250 800 50  0001 C CNN
+F 3 "" H 13250 800 50  0001 C CNN
+	1    13250 800 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8250 9350
+NoConn ~ 4350 1450
+NoConn ~ 4350 1550
+NoConn ~ 4350 1650
+NoConn ~ 4350 1750
+NoConn ~ 4350 1850
+NoConn ~ 4350 1950
+NoConn ~ 4350 2150
+NoConn ~ 5400 2600
+NoConn ~ 2500 5050
+NoConn ~ 1250 5050
+NoConn ~ 1250 5650
+NoConn ~ 1250 5750
+NoConn ~ 1250 5850
+NoConn ~ 1250 5950
+NoConn ~ 1250 6050
+NoConn ~ 1250 6150
+NoConn ~ 1250 6350
+NoConn ~ 6700 1600
+NoConn ~ 6700 2750
+NoConn ~ 1250 3900
+NoConn ~ 1250 1600
+NoConn ~ 1250 2750
+NoConn ~ 2500 2750
+NoConn ~ 2500 3900
+NoConn ~ 2500 1600
+NoConn ~ 6700 3900
+NoConn ~ 7950 3900
+NoConn ~ 7950 5050
+NoConn ~ 6700 5050
+NoConn ~ 7950 1600
+NoConn ~ 11100 2600
 $EndSCHEMATC

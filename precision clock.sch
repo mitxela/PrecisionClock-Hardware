@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:precision clock-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L KCSC02-105 DMill1
+L precision-clock-rescue:KCSC02-105 DMill1
 U 1 1 5B5FBB10
 P 1550 1200
 F 0 "DMill1" H 1440 1650 50  0000 R CNN
@@ -72,7 +40,7 @@ dateF
 Text Label 950  1500 0    60   ~ 0
 dateG
 $Comp
-L KCSC02-105 DCentury1
+L precision-clock-rescue:KCSC02-105 DCentury1
 U 1 1 5B5FCFD1
 P 1550 2350
 F 0 "DCentury1" H 1440 2800 50  0000 R CNN
@@ -97,7 +65,7 @@ dateF
 Text Label 950  2650 0    60   ~ 0
 dateG
 $Comp
-L KCSC02-105 DDecade1
+L precision-clock-rescue:KCSC02-105 DDecade1
 U 1 1 5B5FD077
 P 1550 3500
 F 0 "DDecade1" H 1440 3950 50  0000 R CNN
@@ -122,7 +90,7 @@ dateF
 Text Label 950  3800 0    60   ~ 0
 dateG
 $Comp
-L KCSC02-105 DYear1
+L precision-clock-rescue:KCSC02-105 DYear1
 U 1 1 5B5FD1C4
 P 1550 4650
 F 0 "DYear1" H 1440 5100 50  0000 R CNN
@@ -147,7 +115,7 @@ dateF
 Text Label 950  4950 0    60   ~ 0
 dateG
 $Comp
-L KCSC02-105 DTenMonth1
+L precision-clock-rescue:KCSC02-105 DTenMonth1
 U 1 1 5B5FE720
 P 2800 1200
 F 0 "DTenMonth1" H 2690 1650 50  0000 R CNN
@@ -172,7 +140,7 @@ dateF
 Text Label 2200 1500 0    60   ~ 0
 dateG
 $Comp
-L KCSC02-105 DMonth1
+L precision-clock-rescue:KCSC02-105 DMonth1
 U 1 1 5B5FE736
 P 2800 2350
 F 0 "DMonth1" H 2690 2800 50  0000 R CNN
@@ -197,7 +165,7 @@ dateF
 Text Label 2200 2650 0    60   ~ 0
 dateG
 $Comp
-L KCSC02-105 DTenDay1
+L precision-clock-rescue:KCSC02-105 DTenDay1
 U 1 1 5B5FE74C
 P 2800 3500
 F 0 "DTenDay1" H 2690 3950 50  0000 R CNN
@@ -222,7 +190,7 @@ dateF
 Text Label 2200 3800 0    60   ~ 0
 dateG
 $Comp
-L KCSC02-105 DDay1
+L precision-clock-rescue:KCSC02-105 DDay1
 U 1 1 5B5FE762
 P 2800 4650
 F 0 "DDay1" H 2690 5100 50  0000 R CNN
@@ -247,7 +215,7 @@ dateF
 Text Label 2200 4950 0    60   ~ 0
 dateG
 $Comp
-L MAX7219 UDateDrv
+L precision-clock-rescue:MAX7219 UDateDrv
 U 1 1 5B5FFFB1
 P 4950 3550
 F 0 "UDateDrv" H 4700 4650 60  0000 C CNN
@@ -274,7 +242,7 @@ dateG
 Text Label 5700 3900 2    60   ~ 0
 dateDP
 $Comp
-L KCSC02-105 DHyphenYear1
+L precision-clock-rescue:KCSC02-105 DHyphenYear1
 U 1 1 5B6021D2
 P 1550 5950
 F 0 "DHyphenYear1" H 1440 6400 50  0000 R CNN
@@ -287,7 +255,7 @@ $EndComp
 Text Label 950  6250 0    60   ~ 0
 dateDP
 $Comp
-L KCSC02-105 DHyphenMonth1
+L precision-clock-rescue:KCSC02-105 DHyphenMonth1
 U 1 1 5B6027A1
 P 4650 1750
 F 0 "DHyphenMonth1" H 4540 2200 50  0000 R CNN
@@ -300,7 +268,7 @@ $EndComp
 Text Label 4050 2050 0    60   ~ 0
 dateDP
 $Comp
-L LED D_GMT1
+L precision-clock-rescue:LED D_GMT1
 U 1 1 5B6038BF
 P 4050 4400
 F 0 "D_GMT1" H 4050 4500 50  0000 C CNN
@@ -311,7 +279,7 @@ F 3 "" H 4050 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D_BST1
+L precision-clock-rescue:LED D_BST1
 U 1 1 5B60395C
 P 4050 4700
 F 0 "D_BST1" H 4050 4800 50  0000 C CNN
@@ -326,7 +294,7 @@ dateDP
 Text Label 4500 4700 2    60   ~ 0
 dateDP
 $Comp
-L KCSC02-105 DTenHr
+L precision-clock-rescue:KCSC02-105 DTenHr
 U 1 1 5B6048AA
 P 7000 1200
 F 0 "DTenHr" H 6890 1650 50  0000 R CNN
@@ -351,7 +319,7 @@ timeF
 Text Label 6400 1500 0    60   ~ 0
 timeG
 $Comp
-L KCSC02-105 DHr
+L precision-clock-rescue:KCSC02-105 DHr
 U 1 1 5B6048B8
 P 7000 2350
 F 0 "DHr" H 6890 2800 50  0000 R CNN
@@ -362,7 +330,7 @@ F 3 "" H 6500 2825 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KCSC02-105 DTenMin
+L precision-clock-rescue:KCSC02-105 DTenMin
 U 1 1 5B6048C6
 P 7000 3500
 F 0 "DTenMin" H 6890 3950 50  0000 R CNN
@@ -373,7 +341,7 @@ F 3 "" H 6500 3975 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KCSC02-105 DMin
+L precision-clock-rescue:KCSC02-105 DMin
 U 1 1 5B6048D4
 P 7000 4650
 F 0 "DMin" H 6890 5100 50  0000 R CNN
@@ -384,7 +352,7 @@ F 3 "" H 6500 5125 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KCSC02-105 DTenSec
+L precision-clock-rescue:KCSC02-105 DTenSec
 U 1 1 5B6048E1
 P 8250 1200
 F 0 "DTenSec" H 8140 1650 50  0000 R CNN
@@ -395,7 +363,7 @@ F 3 "" H 7750 1675 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KCSC02-105 DSec
+L precision-clock-rescue:KCSC02-105 DSec
 U 1 1 5B6048EF
 P 8250 2350
 F 0 "DSec" H 8140 2800 50  0000 R CNN
@@ -406,7 +374,7 @@ F 3 "" H 7750 2825 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KCSC02-105 DDeciSec
+L precision-clock-rescue:KCSC02-105 DDeciSec
 U 1 1 5B6048FC
 P 8250 3500
 F 0 "DDeciSec" H 8140 3950 50  0000 R CNN
@@ -417,7 +385,7 @@ F 3 "" H 7750 3975 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KCSC02-105 DCentiSec
+L precision-clock-rescue:KCSC02-105 DCentiSec
 U 1 1 5B604909
 P 8250 4650
 F 0 "DCentiSec" H 8140 5100 50  0000 R CNN
@@ -428,7 +396,7 @@ F 3 "" H 7750 5125 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MAX7219 UTimeDrv
+L precision-clock-rescue:MAX7219 UTimeDrv
 U 1 1 5B604916
 P 10650 3550
 F 0 "UTimeDrv" H 10400 4650 60  0000 C CNN
@@ -455,7 +423,7 @@ timeG
 Text Label 11400 3900 2    60   ~ 0
 timeDP
 $Comp
-L LED DColonHM
+L precision-clock-rescue:LED DColonHM
 U 1 1 5B604932
 P 9650 4450
 F 0 "DColonHM" H 9650 4550 50  0000 C CNN
@@ -466,7 +434,7 @@ F 3 "" H 9650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DColonMS
+L precision-clock-rescue:LED DColonMS
 U 1 1 5B604938
 P 9650 4750
 F 0 "DColonMS" H 9650 4850 50  0000 C CNN
@@ -479,7 +447,7 @@ $EndComp
 Text Label 10700 4600 2    60   ~ 0
 timeDP
 $Comp
-L LED DColonMS?
+L precision-clock-rescue:LED DColonMS?
 U 1 1 5B609827
 P 9650 5050
 F 0 "DColonMS?" H 9650 5150 50  0000 C CNN
@@ -490,7 +458,7 @@ F 3 "" H 9650 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED DColonHM?
+L precision-clock-rescue:LED DColonHM?
 U 1 1 5B609A77
 P 9650 4150
 F 0 "DColonHM?" H 9650 4250 50  0000 C CNN
@@ -501,7 +469,7 @@ F 3 "" H 9650 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATTINY2313A-PU U_CONTROL
+L precision-clock-rescue:ATTINY2313A-PU U_CONTROL
 U 1 1 5B60B96D
 P 3150 9150
 F 0 "U_CONTROL" H 2000 10150 50  0000 C CNN
@@ -512,7 +480,7 @@ F 3 "" H 3150 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B60DF4C
 P 11400 2750
 F 0 "#PWR?" H 11400 2500 50  0001 C CNN
@@ -523,7 +491,7 @@ F 3 "" H 11400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B60E347
 P 5750 2750
 F 0 "#PWR?" H 5750 2500 50  0001 C CNN
@@ -534,7 +502,7 @@ F 3 "" H 5750 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L precision-clock-rescue:+5V #PWR?
 U 1 1 5B6102B3
 P 14150 800
 F 0 "#PWR?" H 14150 650 50  0001 C CNN
@@ -545,7 +513,7 @@ F 3 "" H 14150 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP1117-33 U?
+L precision-clock-rescue:AP1117-33 U?
 U 1 1 5B610369
 P 14850 800
 F 0 "U?" H 14700 925 50  0000 C CNN
@@ -558,7 +526,7 @@ $EndComp
 Text Label 15550 800  0    60   ~ 0
 VDD_3V3
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B6108AD
 P 14850 1100
 F 0 "#PWR?" H 14850 850 50  0001 C CNN
@@ -569,7 +537,7 @@ F 3 "" H 14850 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C?
+L precision-clock-rescue:CP C?
 U 1 1 5B610931
 P 14400 1000
 F 0 "C?" H 14425 1100 50  0000 L CNN
@@ -580,7 +548,7 @@ F 3 "" H 14400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B610DA1
 P 14400 1150
 F 0 "#PWR?" H 14400 900 50  0001 C CNN
@@ -591,7 +559,7 @@ F 3 "" H 14400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C?
+L precision-clock-rescue:CP C?
 U 1 1 5B610E29
 P 15300 1000
 F 0 "C?" H 15325 1100 50  0000 L CNN
@@ -602,7 +570,7 @@ F 3 "" H 15300 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B610EE4
 P 15300 1150
 F 0 "#PWR?" H 15300 900 50  0001 C CNN
@@ -615,7 +583,7 @@ $EndComp
 Text Label 3250 7650 0    60   ~ 0
 VDD_3V3
 $Comp
-L C C?
+L precision-clock-rescue:C C?
 U 1 1 5B61530A
 P 3450 7900
 F 0 "C?" H 3475 8000 50  0000 L CNN
@@ -626,7 +594,7 @@ F 3 "" H 3450 7900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B615610
 P 3700 7900
 F 0 "#PWR?" H 3700 7650 50  0001 C CNN
@@ -637,7 +605,7 @@ F 3 "" H 3700 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B616261
 P 3150 10200
 F 0 "#PWR?" H 3150 9950 50  0001 C CNN
@@ -656,7 +624,7 @@ LD_TIME
 Text Label 4700 8650 0    60   ~ 0
 LD_DATE
 $Comp
-L Jumper JP?
+L precision-clock-rescue:Jumper JP?
 U 1 1 5B6182F3
 P 5400 9850
 F 0 "JP?" H 5400 10000 50  0000 C CNN
@@ -667,7 +635,7 @@ F 3 "" H 5400 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B6183BA
 P 5800 9850
 F 0 "#PWR?" H 5800 9600 50  0001 C CNN
@@ -692,7 +660,7 @@ LD_TIME
 Text Label 9650 3700 0    60   ~ 0
 SPI_CLK
 $Comp
-L +5V #PWR?
+L precision-clock-rescue:+5V #PWR?
 U 1 1 5B61C2D2
 P 5950 2950
 F 0 "#PWR?" H 5950 2800 50  0001 C CNN
@@ -705,7 +673,7 @@ $EndComp
 Text Label 5450 3050 0    60   ~ 0
 ISET_DATE
 $Comp
-L +5V #PWR?
+L precision-clock-rescue:+5V #PWR?
 U 1 1 5B61CED9
 P 11600 2950
 F 0 "#PWR?" H 11600 2800 50  0001 C CNN
@@ -818,7 +786,7 @@ timeG
 Text Label 7650 2750 0    60   ~ 0
 timeDP
 $Comp
-L Q_PNP_EBC Q?
+L precision-clock-rescue:Q_PNP_EBC Q?
 U 1 1 5B628312
 P 5700 5900
 F 0 "Q?" H 5900 5950 50  0000 L CNN
@@ -829,7 +797,7 @@ F 3 "" H 5700 5900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Q_PNP_EBC Q?
+L precision-clock-rescue:Q_PNP_EBC Q?
 U 1 1 5B629439
 P 4900 5900
 F 0 "Q?" H 5100 5950 50  0000 L CNN
@@ -840,7 +808,7 @@ F 3 "" H 4900 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR?
+L precision-clock-rescue:+5V #PWR?
 U 1 1 5B62963E
 P 5300 5600
 F 0 "#PWR?" H 5300 5450 50  0001 C CNN
@@ -851,7 +819,7 @@ F 3 "" H 5300 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LDR03 LDR
+L precision-clock-rescue:LDR03 LDR
 U 1 1 5B629DDB
 P 4800 6500
 F 0 "LDR" V 4600 6500 50  0000 C CNN
@@ -862,7 +830,7 @@ F 3 "" H 4800 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT_TRIM R_Max_Bright
+L precision-clock-rescue:POT_TRIM R_Max_Bright
 U 1 1 5B62A5D9
 P 4800 6900
 F 0 "R_Max_Bright" V 4625 6900 50  0000 C CNN
@@ -873,7 +841,7 @@ F 3 "" H 4800 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R_Min_Bright
+L precision-clock-rescue:R R_Min_Bright
 U 1 1 5B62B115
 P 5150 6500
 F 0 "R_Min_Bright" V 5230 6500 50  0000 C CNN
@@ -897,7 +865,7 @@ Connection ~ 3200 2650
 Wire Wire Line
 	5100 2350 3200 2350
 Wire Wire Line
-	5100 2050 5100 2350
+	5100 2050 5100 2150
 Wire Wire Line
 	4950 2150 5100 2150
 Wire Wire Line
@@ -916,7 +884,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 1600 1850 1600
 Wire Wire Line
-	2000 600  2000 1600
+	2000 600  2000 1500
 Wire Wire Line
 	3800 600  2000 600 
 Wire Wire Line
@@ -929,7 +897,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 2750 1850 2750
 Wire Wire Line
-	2000 1800 2000 2750
+	2000 1800 2000 2650
 Wire Wire Line
 	3650 1800 2000 1800
 Wire Wire Line
@@ -942,7 +910,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3900 1850 3900
 Wire Wire Line
-	2100 3800 2100 5400
+	2100 3800 2100 3900
 Wire Wire Line
 	2100 5400 3700 5400
 Wire Wire Line
@@ -955,7 +923,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 5050 1850 5050
 Wire Wire Line
-	2000 4950 2000 6350
+	2000 4950 2000 5050
 Wire Wire Line
 	2000 5250 3550 5250
 Wire Wire Line
@@ -968,7 +936,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 1600 3100 1600
 Wire Wire Line
-	3400 1500 3400 3100
+	3400 1500 3400 1600
 Wire Wire Line
 	3400 3100 4300 3100
 Connection ~ 3200 2750
@@ -977,21 +945,21 @@ Wire Wire Line
 Wire Wire Line
 	3200 2750 3100 2750
 Wire Wire Line
-	3200 2350 3200 3000
+	3200 2350 3200 2650
 Wire Wire Line
 	3200 3000 4300 3000
 Connection ~ 3200 3800
 Wire Wire Line
-	3100 3900 3900 3900
+	3100 3900 3200 3900
 Wire Wire Line
 	3100 3800 3200 3800
 Wire Wire Line
-	3200 3400 3200 3900
+	3200 3400 3200 3800
 Wire Wire Line
 	4300 3400 3200 3400
 Connection ~ 3300 4950
 Wire Wire Line
-	3100 5050 3900 5050
+	3100 5050 3300 5050
 Wire Wire Line
 	1250 1500 950  1500
 Wire Wire Line
@@ -1123,7 +1091,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2700 3300 2700
 Wire Wire Line
-	3300 2700 3300 5050
+	3300 2700 3300 4950
 Wire Wire Line
 	3100 4950 3300 4950
 Wire Wire Line
@@ -1137,7 +1105,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 1600 7300 1600
 Wire Wire Line
-	7450 600  7450 1600
+	7450 600  7450 1500
 Wire Wire Line
 	9250 600  7450 600 
 Wire Wire Line
@@ -1150,7 +1118,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 2750 7300 2750
 Wire Wire Line
-	7450 1800 7450 2750
+	7450 1800 7450 2650
 Wire Wire Line
 	9100 1800 7450 1800
 Wire Wire Line
@@ -1163,7 +1131,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3900 7300 3900
 Wire Wire Line
-	7550 3800 7550 5400
+	7550 3800 7550 3900
 Wire Wire Line
 	7550 5400 9150 5400
 Wire Wire Line
@@ -1185,7 +1153,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 1600 8550 1600
 Wire Wire Line
-	8850 1500 8850 3100
+	8850 1500 8850 1600
 Wire Wire Line
 	8850 3100 10000 3100
 Connection ~ 8650 2750
@@ -1194,7 +1162,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 2750 8550 2750
 Wire Wire Line
-	8650 2650 8650 3000
+	8650 2650 8650 2750
 Wire Wire Line
 	8650 3000 10000 3000
 Connection ~ 8650 3800
@@ -1203,12 +1171,12 @@ Wire Wire Line
 Wire Wire Line
 	8550 3800 8650 3800
 Wire Wire Line
-	8650 3400 8650 4150
+	8650 3400 8650 3800
 Wire Wire Line
 	10000 3400 8650 3400
 Connection ~ 8750 4950
 Wire Wire Line
-	8550 5050 9500 5050
+	8550 5050 8750 5050
 Wire Wire Line
 	6700 1500 6400 1500
 Wire Wire Line
@@ -1242,15 +1210,15 @@ Wire Wire Line
 Wire Wire Line
 	10000 2700 8750 2700
 Wire Wire Line
-	8750 2700 8750 5050
+	8750 2700 8750 4950
 Wire Wire Line
 	8550 4950 8750 4950
 Wire Wire Line
 	7450 5250 9000 5250
 Wire Wire Line
-	7450 4950 7450 5250
+	7450 4950 7450 5050
 Wire Wire Line
-	8650 4150 9500 4150
+	8650 4150 9300 4150
 Connection ~ 8650 3900
 Connection ~ 8750 5050
 Wire Wire Line
@@ -1266,7 +1234,7 @@ Connection ~ 9300 4150
 Wire Wire Line
 	9800 4150 10300 4150
 Wire Wire Line
-	10300 4150 10300 5050
+	10300 4150 10300 4450
 Wire Wire Line
 	10300 5050 9800 5050
 Connection ~ 10300 4600
@@ -1277,23 +1245,23 @@ Wire Wire Line
 	9850 4750 10300 4750
 Connection ~ 10300 4750
 Wire Wire Line
-	11100 2750 11400 2750
+	11100 2750 11250 2750
 Wire Wire Line
 	11100 2850 11250 2850
 Wire Wire Line
 	11250 2850 11250 2750
 Connection ~ 11250 2750
 Wire Wire Line
-	5400 2750 5750 2750
+	5400 2750 5550 2750
 Wire Wire Line
 	5400 2850 5550 2850
 Wire Wire Line
 	5550 2850 5550 2750
 Connection ~ 5550 2750
 Wire Wire Line
-	14150 800  14550 800 
+	14150 800  14400 800 
 Wire Wire Line
-	15150 800  15650 800 
+	15150 800  15300 800 
 Wire Wire Line
 	14400 850  14400 800 
 Connection ~ 14400 800 
@@ -1301,7 +1269,7 @@ Wire Wire Line
 	15300 850  15300 800 
 Connection ~ 15300 800 
 Wire Wire Line
-	3150 7650 3150 8050
+	3150 7650 3150 7900
 Wire Wire Line
 	3150 7650 3700 7650
 Wire Wire Line
@@ -1444,18 +1412,18 @@ Wire Wire Line
 Wire Wire Line
 	7950 2750 7650 2750
 Wire Wire Line
-	4800 5600 5800 5600
+	4800 5600 5300 5600
 Wire Wire Line
 	5800 5600 5800 5700
 Connection ~ 5300 5600
 Wire Wire Line
 	4800 5700 4800 5600
 Wire Wire Line
-	5100 5900 5500 5900
+	5100 5900 5300 5900
 Wire Wire Line
-	4800 6100 4800 6350
+	4800 6100 4800 6150
 Wire Wire Line
-	4800 6650 4800 6750
+	4800 6650 4800 6700
 Wire Wire Line
 	4800 6150 5300 6150
 Wire Wire Line
@@ -1485,7 +1453,7 @@ ISET_TIME
 Text Label 4850 7200 0    60   ~ 0
 ISET_DATE
 $Comp
-L NEO6MV2 U_GPS
+L precision-clock-rescue:NEO6MV2 U_GPS
 U 1 1 5B633FB3
 P 9100 8400
 F 0 "U_GPS" H 8650 9750 60  0000 C CNN
@@ -1496,11 +1464,11 @@ F 3 "" H 8500 9900 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8250 9450 4500 9450
+	8250 9450 7750 9450
 Wire Wire Line
 	8250 9250 4500 9250
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B634A86
 P 8100 9050
 F 0 "#PWR?" H 8100 8800 50  0001 C CNN
@@ -1517,7 +1485,7 @@ VDD_3V3
 Wire Wire Line
 	8250 9050 8100 9050
 $Comp
-L LED D_PPS
+L precision-clock-rescue:LED D_PPS
 U 1 1 5B6355BD
 P 7750 9700
 F 0 "D_PPS" H 7750 9800 50  0000 C CNN
@@ -1528,7 +1496,7 @@ F 3 "" H 7750 9700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R_PPS
+L precision-clock-rescue:R R_PPS
 U 1 1 5B635753
 P 7750 10100
 F 0 "R_PPS" V 7830 10100 50  0000 C CNN
@@ -1539,7 +1507,7 @@ F 3 "" H 7750 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L precision-clock-rescue:GND #PWR?
 U 1 1 5B635810
 P 7750 10350
 F 0 "#PWR?" H 7750 10100 50  0001 C CNN
@@ -1556,4 +1524,84 @@ Wire Wire Line
 	7750 9850 7750 9950
 Wire Wire Line
 	7750 10250 7750 10350
+Wire Wire Line
+	3300 5050 3900 5050
+Wire Wire Line
+	5100 2150 5100 2350
+Wire Wire Line
+	3200 2650 3200 2750
+Wire Wire Line
+	2000 6250 2000 6350
+Wire Wire Line
+	2000 5250 2000 6250
+Wire Wire Line
+	2000 1500 2000 1600
+Wire Wire Line
+	2000 2650 2000 2750
+Wire Wire Line
+	2100 3900 2100 5400
+Wire Wire Line
+	2000 5050 2000 5250
+Wire Wire Line
+	3400 1600 3400 3100
+Wire Wire Line
+	3200 2750 3200 3000
+Wire Wire Line
+	3200 3800 3200 3900
+Wire Wire Line
+	3300 4950 3300 5050
+Wire Wire Line
+	3200 3900 3900 3900
+Wire Wire Line
+	7450 1500 7450 1600
+Wire Wire Line
+	7450 2650 7450 2750
+Wire Wire Line
+	7550 3900 7550 5400
+Wire Wire Line
+	7450 5050 7450 5250
+Wire Wire Line
+	8850 1600 8850 3100
+Wire Wire Line
+	8650 2750 8650 3000
+Wire Wire Line
+	8650 3800 8650 3900
+Wire Wire Line
+	8750 4950 8750 5050
+Wire Wire Line
+	8650 3900 8650 4150
+Wire Wire Line
+	8750 5050 9300 5050
+Wire Wire Line
+	9300 5050 9500 5050
+Wire Wire Line
+	9300 4150 9500 4150
+Wire Wire Line
+	10300 4600 10300 4750
+Wire Wire Line
+	10300 4450 10300 4600
+Wire Wire Line
+	10300 4750 10300 5050
+Wire Wire Line
+	11250 2750 11400 2750
+Wire Wire Line
+	5550 2750 5750 2750
+Wire Wire Line
+	14400 800  14550 800 
+Wire Wire Line
+	15300 800  15650 800 
+Wire Wire Line
+	3150 7900 3150 8050
+Wire Wire Line
+	5300 5600 5800 5600
+Wire Wire Line
+	5300 5900 5500 5900
+Wire Wire Line
+	4800 6150 4800 6300
+Wire Wire Line
+	4800 6300 4800 6350
+Wire Wire Line
+	4800 6700 4800 6750
+Wire Wire Line
+	7750 9450 4500 9450
 $EndSCHEMATC

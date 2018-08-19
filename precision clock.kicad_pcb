@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
 
   (general
     (thickness 1.6)
@@ -39,7 +39,7 @@
     (zone_clearance 0.3)
     (zone_45_only no)
     (trace_min 0.4)
-    (segment_width 0.3)
+    (segment_width 0.1)
     (edge_width 0.15)
     (via_size 0.8)
     (via_drill 0.5)
@@ -3620,7 +3620,7 @@
   (gr_line (start 465.455 40.64) (end 461.518 40.64) (layer F.SilkS) (width 0.6))
   (gr_line (start 467.868 40.64) (end 473.456 40.64) (layer F.SilkS) (width 0.6))
   (gr_arc (start 467.868 40.64) (end 469.646 39.116) (angle -274.3987054) (layer F.SilkS) (width 0.6))
-  (gr_circle (center 467.868 40.64) (end 468.22721 40.64) (layer F.SilkS) (width 1))
+  (gr_circle (center 467.868 40.64) (end 468.368 40.64) (layer F.SilkS) (width 1))
   (gr_text BRIGHTNESS (at 466.09 24.13) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.25)))
   )

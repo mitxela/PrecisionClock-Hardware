@@ -3606,9 +3606,9 @@
       (net 68 /ISET_DATE))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.62 1.62) (drill 0.9) (layers *.Cu *.Mask)
       (net 65 "Net-(LDR1-Pad2)"))
-    (model ${KIPRJMOD}/3d_models/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-6-V_Vertical.wrl
+    (model ${KIPRJMOD}/3d_models/Potentiometer_THT.3dshapes/Potentiometer_Trimmer_Piher_PT-6v_Horizontal.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+      (scale (xyz 0.3937007874 0.3937007874 0.3937007874))
       (rotate (xyz 0 0 0))
     )
   )

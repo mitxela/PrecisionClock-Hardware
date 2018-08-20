@@ -60,7 +60,7 @@
   (fp_line (start 26.3 7.33) (end 26.3 13.33) (layer F.SilkS) (width 0.12))
   (fp_line (start 24.8 5.63) (end 26.3 7.33) (layer F.SilkS) (width 0.12))
   (fp_circle (center 5.2 15.15) (end 6.5 15.15) (layer F.SilkS) (width 0.12))
-  (model ${KISYS3DMOD}/Display_7Segment.3dshapes/AD-121F2.wrl
+  (model ${KIPRJMOD}/3d_models/Display_7Segment.3dshapes/AD-121F2.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

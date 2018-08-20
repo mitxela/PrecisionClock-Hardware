@@ -3747,7 +3747,7 @@
   (gr_line (start 465.455 33.02) (end 461.518 33.02) (layer F.SilkS) (width 0.6) (tstamp 5B7B1C2C))
   (gr_line (start 467.868 33.02) (end 473.456 33.02) (layer F.SilkS) (width 0.6) (tstamp 5B7B1C29))
   (gr_arc (start 467.868 33.02) (end 469.646 31.496) (angle -274.3987054) (layer F.SilkS) (width 0.6) (tstamp 5B7B1C26))
-  (gr_circle (center 467.868 33.02) (end 468.22721 33.02) (layer F.SilkS) (width 1) (tstamp 5B7B1C23))
+  (gr_circle (center 467.868 33.02) (end 468.368 33.02) (layer F.SilkS) (width 0.5) (tstamp 5B7B1C23))
   (gr_text BRIGHTNESS (at 464.185 24.13) (layer F.SilkS)
     (effects (font (size 2 2) (thickness 0.25)))
   )

@@ -1650,4 +1650,15 @@ Wire Wire Line
 Wire Wire Line
 	8650 3400 8650 3900
 NoConn ~ 8550 3800
+$Comp
+L Graphic:SYM_ESD_Small LOGO1
+U 1 1 5C828F1B
+P 9650 6850
+F 0 "LOGO1" H 9650 6990 50  0001 C CNN
+F 1 "LOGO" H 9650 6725 50  0001 C CNN
+F 2 "precision clock:logo" H 9650 6860 50  0001 C CNN
+F 3 "~" H 9650 6860 50  0001 C CNN
+	1    9650 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

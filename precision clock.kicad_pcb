@@ -2283,7 +2283,8 @@
 
   (module "precision clock:logo" (layer F.Cu) (tedit 0) (tstamp 5B7BBA1E)
     (at 388.112 34.671)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (path /5C828F1B)
+    (fp_text reference LOGO1 (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide

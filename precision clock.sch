@@ -1533,8 +1533,6 @@ NoConn ~ 4500 9550
 NoConn ~ 4500 9750
 NoConn ~ 4500 9650
 NoConn ~ 1800 8350
-NoConn ~ 1800 8650
-NoConn ~ 1800 8850
 $Comp
 L barrel_jack:Barrel_Jack J1
 U 1 1 5BFD3F20
@@ -1711,4 +1709,71 @@ Wire Wire Line
 Connection ~ 11800 2950
 Wire Wire Line
 	11100 2950 11800 2950
+$Comp
+L Device:Crystal X1
+U 1 1 5C8828F9
+P 1500 8750
+F 0 "X1" V 1454 8881 50  0000 L CNN
+F 1 "Crystal" V 1545 8881 50  0000 L CNN
+F 2 "Crystal:Crystal_HC18-U_Vertical" H 1500 8750 50  0001 C CNN
+F 3 "~" H 1500 8750 50  0001 C CNN
+	1    1500 8750
+	0    1    1    0   
+$EndComp
+$Comp
+L precision-clock-rescue:C C6
+U 1 1 5C883C92
+P 1150 8600
+F 0 "C6" H 1175 8700 50  0000 L CNN
+F 1 "12p" H 1175 8500 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1188 8450 50  0001 C CNN
+F 3 "" H 1150 8600 50  0001 C CNN
+	1    1150 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L precision-clock-rescue:C C7
+U 1 1 5C88400D
+P 1150 8900
+F 0 "C7" H 1175 9000 50  0000 L CNN
+F 1 "12p" H 1175 8800 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1188 8750 50  0001 C CNN
+F 3 "" H 1150 8900 50  0001 C CNN
+	1    1150 8900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 8650 1800 8600
+Wire Wire Line
+	1800 8600 1500 8600
+Wire Wire Line
+	1800 8850 1800 8900
+Wire Wire Line
+	1800 8900 1500 8900
+Wire Wire Line
+	1500 8600 1300 8600
+Connection ~ 1500 8600
+Wire Wire Line
+	1500 8900 1300 8900
+Connection ~ 1500 8900
+Wire Wire Line
+	1000 8600 900  8600
+Wire Wire Line
+	900  8600 900  8900
+Wire Wire Line
+	900  8900 1000 8900
+$Comp
+L precision-clock-rescue:GND #PWR03
+U 1 1 5CAF346A
+P 900 9100
+F 0 "#PWR03" H 900 8850 50  0001 C CNN
+F 1 "GND" H 900 8950 50  0000 C CNN
+F 2 "" H 900 9100 50  0001 C CNN
+F 3 "" H 900 9100 50  0001 C CNN
+	1    900  9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  8900 900  9100
+Connection ~ 900  8900
 $EndSCHEMATC

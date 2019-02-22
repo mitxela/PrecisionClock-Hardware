@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 38)
+    (drawings 39)
     (tracks 1226)
     (zones 0)
     (modules 47)
@@ -3772,6 +3772,9 @@
     )
   )
 
+  (gr_text "Rev. 3" (at 17.526 34.163 90) (layer F.SilkS) (tstamp 5C716039)
+    (effects (font (size 1.6 1.6) (thickness 0.25)))
+  )
   (gr_arc (start 27.305 39.37) (end 24.765001 34.925001) (angle -300.5102374) (layer Edge.Cuts) (width 0.15) (tstamp 5B7C002E))
   (gr_line (start 29.845 31.75) (end 29.845 34.925) (layer Edge.Cuts) (width 0.15) (tstamp 5B7C002B))
   (gr_line (start 24.765 31.75) (end 24.765 34.925) (layer Edge.Cuts) (width 0.15) (tstamp 5B7C0025))
